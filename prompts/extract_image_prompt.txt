@@ -1,0 +1,15 @@
+Analyze this image and determine if it's a valid receipt or invoice.
+
+If the image is NOT a receipt/invoice (like personal photos, documents, screenshots, etc.) OR if the receipt text is completely unreadable/blurry, respond with exactly: "invalid receipt"
+
+If it IS a valid receipt/invoice and readable, extract all text from the image and return only the raw text without any formatting.
+
+Valid receipts/invoices should contain:
+- Store/merchant name
+- Items purchased with prices
+- Total amount
+- Date (optional but preferred)
+
+Return either:
+1. "invalid receipt" (if not a receipt or unreadable)
+2. Raw extracted text (if valid receipt)

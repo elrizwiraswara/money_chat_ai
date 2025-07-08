@@ -1,0 +1,4 @@
+enum InputSource {
+  manual,
+  auto,
+}
