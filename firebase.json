@@ -1,0 +1,52 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "money-chat-ai",
+          "appId": "1:1046373637486:android:9a208d792d4bcada0cb57f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "money-chat-ai",
+          "configurations": {
+            "android": "1:1046373637486:android:9a208d792d4bcada0cb57f",
+            "ios": "1:1046373637486:ios:5e8703f55fbd53dc0cb57f",
+            "macos": "1:1046373637486:ios:5e8703f55fbd53dc0cb57f",
+            "web": "1:1046373637486:web:6e5771420ff388b20cb57f",
+            "windows": "1:1046373637486:web:3560d2258ab882c60cb57f"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
