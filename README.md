@@ -1,6 +1,6 @@
-# MoneyChat.ai
+# Money Chat AI
 
-MoneyChat.ai is an intelligent, chat-based personal finance tracker designed to help you stay on top of your money effortlessly.
+Money Chat AI is a chat-based personal finance tracker designed to help you stay on top of your money effortlessly.
 
 Built with simplicity in mind, users can interact with the app just like chatting with a personal assistant. Add expenses, record income, and view monthly summaries — all through intuitive text commands.
 
